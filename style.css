@@ -1,0 +1,64 @@
+@media (max-width: 600px) {
+    * {
+        background-color: whitesmoke;
+    }
+}
+
+#h1Div {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    margin-top: 1rem;
+}
+
+h1 {
+    color: #444F58;
+    font-size: 5rem;
+    font-family: "Baloo Paaji 2";
+}
+
+#searchField {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 5rem;
+}
+
+#searchField input {
+    padding: 10px 60px ;
+}
+
+
+#searchField button {
+    margin-left: 2rem;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    padding:15px;
+    min-height:30px;
+    min-width: 120px;
+}
+
+#searchField button:hover {
+    background-color: #7ebb88;
+    transition: 0.7s;
+}
+
+#invalidP {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    color: orangered;
+    font-size: larger;
+}
+
+#catP {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-family: sans-serif;
+    color: black;
+    font-size: larger;
+}
